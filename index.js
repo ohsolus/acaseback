@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.json("hello");
+  res.json("Acase server is alive!");
 });
 
 /*
